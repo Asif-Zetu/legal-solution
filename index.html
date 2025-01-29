@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -335,8 +335,36 @@
         <!-- ! slides -->
         <div class="carousel w-full">
           <!-- ! slide 1 -->
-          <div id="slide1" class="carousel-item relative w-full">
-            <img src="images/banner.png" class="w-full" />
+          <div
+            id="slide1"
+            class="carousel-item relative w-full h-[500px]"
+            style="
+              background-image: url('images/banner.png'),
+                url('images/Rectangle\ 7.png');
+              background-blend-mode: overlay;
+              background-position: center;
+              background-size: cover, cover;
+              background-repeat: no-repeat, no-repeat;
+            "
+          >
+            <div class="text-center lg:w-[900px] mx-auto my-auto">
+              <div class="avatar">
+                <div class="w-24 rounded-full mb-2">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                  />
+                </div>
+              </div>
+              <h3 class="font-eb text-white text-2xl mb-1">Nusrat Fari</h3>
+              <h4 class="font-poppins text-white mb-7">UIX Designer</h4>
+              <p class="font-poppins text-white font-light">
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old. Richard McClintock, a
+                Latin professor at Hampden-Sydney College in Virginia, looked up
+                one of the more obscure Latin words, consectetur.
+              </p>
+            </div>
             <div
               class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
             >
